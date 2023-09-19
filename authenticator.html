@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authenticator App</title>
+    <script src="authenticator.js"></script>
+    <link rel="stylesheet" href="authenticator.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://w7.pngwing.com/pngs/168/75/png-transparent-lightweight-directory-access-protocol-computer-icons-authentication-directory-service-computer-servers-authentication-protocol-logo-sign-authentication.png" 
+                        alt="App Logo">
+        </div>
+        <h1>Gold Key Authenticator</h1>
+    </header>
+
+    <main>
+        <section class="auth-form">
+            <h2>Login For Verification</h2>
+            <form>
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+                
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                <br>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section class="auth-options">
+            <h2>Not a member yet?</h2>
+            <p>Register now to access your account.</p>
+            <br>
+            <button id="register-button">Register</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Gold Key LLC - All Rights Reserved</p>
+    </footer>
+</body>
+</html>
